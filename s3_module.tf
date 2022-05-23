@@ -1,7 +1,7 @@
 module "s3_bucket" {
   source = "terraform-aws-modules/s3-bucket/aws"
 
-  bucket = "cameron-s3-bucket"
+  bucket = "bribri-s3-bucket"
   acl    = "private"
 
   versioning = {
